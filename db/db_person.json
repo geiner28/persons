@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "stiven",
+    "cedula": "434344",
+    "edad": "22"
+  },
+  {
+    "id": 2,
+    "name": "stiven",
+    "cedula": "434344",
+    "edad": "22"
+  },
+  {
+    "id": 3,
+    "name": "gf",
+    "cedula": "545",
+    "edad": "4"
+  },
+  {
+    "id": 4,
+    "name": "geiner",
+    "cedula": "3343444",
+    "edad": "44"
+  },
+  {
+    "id": 5,
+    "name": "nicol",
+    "cedula": "8732634",
+    "edad": "12"
+  },
+  {
+    "id": 6,
+    "name": "Luis Evelio Hurtado Zapata",
+    "cedula": "33435",
+    "edad": "56"
+  }
+]

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados de Búsqueda</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<style>
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+    }
+
+    .contenedor {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    strong {
+        color: #333;
+    }
+    
+</style>
+
+<body>
+    <div class="contenedor">
+        <h1>Resultados de Búsqueda</h1>
+        <ul>
+            <% personas.forEach(persona => { %>
+                <li>
+                    <strong>Nombre:</strong> <%= persona.name %>, 
+                    <strong>Edad:</strong> <%= persona.edad %> años
+                </li>
+            <% }); %>
+        </ul>
+        <button onclick="window.location.href='/'">Regresar al Inicio</button>
+
+    </div>
+</body>
+</html>
